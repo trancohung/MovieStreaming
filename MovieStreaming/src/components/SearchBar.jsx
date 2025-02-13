@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
             placeholder="Search anime or movie"
             value={query}
             onChange={handleChange}
-            className="bg-gray-600 p-2 outline-none w-1/3 rounded-2xl text-gray-300"
+            className="bg-gray-600 px-4 py-2 outline-none w-1/3 rounded-4xl text-gray-300 text-xl"
         />
     );
 }

@@ -15,7 +15,7 @@ const Home = () => {
         setFilteredMovies(filtered);
     }
     return (
-        <div className="bg-gray-900 text-white min-h-screen">
+        <div className="bg-gray-900 text-white min-h-screen px-8">
             <NavBar onSearch={handleSearch} />
             <Banner movie={selectedMovie} />
             <NewRelease onSelectMovie={setSelectedMovie} movies={filteredMovies} />
